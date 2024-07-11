@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
+    <div className="overflow-x-hidden">
+      <Navbar />
     </div>
   );
 }
