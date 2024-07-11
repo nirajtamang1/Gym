@@ -4,6 +4,7 @@ import { About3 } from "./components/About/About3";
 import { Contact } from "./components/Contact/Contact";
 import { Hero } from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import Pricing from "./components/Pricing/Pricing";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About2 />
       <About3 />
       <Contact />
+      <Pricing />
     </div>
   );
 }
