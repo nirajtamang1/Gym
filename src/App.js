@@ -6,6 +6,7 @@ import { Contact } from "./components/Contact/Contact";
 import { Hero } from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Pricing from "./components/Pricing/Pricing";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Contact />
       <Pricing />
       <AppBanner />
+      <Testimonial />
     </div>
   );
 }
